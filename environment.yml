@@ -1,0 +1,10 @@
+name: tfjs-tutorial
+channels:
+  - defaults
+dependencies:
+  - python == 3.10
+  - pip
+  - pip:
+    - tensorflow[and-cuda]==2.18.0
+    - tensorflowjs==4.22.0
+    - ipykernel
