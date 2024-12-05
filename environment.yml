@@ -8,3 +8,5 @@ dependencies:
     - tensorflow[and-cuda]==2.18.0
     - tensorflowjs==4.22.0
     - ipykernel
+    - matplotlib
+    - tqdm
