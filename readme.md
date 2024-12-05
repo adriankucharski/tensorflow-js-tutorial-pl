@@ -2,7 +2,7 @@
 Aplikacja utworzona przy pomocy Reacta, TypeScriptu i TensorFlowJS. 
 <br/>
 <video src="https://github.com/user-attachments/assets/d87ecc1d-c97e-4238-b705-cb82e037df97" width="600"></video>
-[<h2>Link do aplikacji</h2>](https://adriankucharski.github.io/gaugan-next-tensorflowjs/)
+[__Link do aplikacji__](https://adriankucharski.github.io/gaugan-next-tensorflowjs/)
 
 ## Wprowadzenie
 Celem tego poradnika jest wprowadzenie do biblioteki TensorFlowJS. Biblioteka ta to potężne narzędzie, które pozwala na tworzenie lub wykorzystywanie modeli uczenia maszynowego bezpośrednio w przeglądarce użytkownika, bez konieczności korzystania z serwera. Dzięki połączeniu TensorFlowJS z Reactem, możliwe jest utworzenie interaktywnej aplikacji w przeglądarce, która będzie działać na wielu urządzeniach. 
