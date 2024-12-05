@@ -1,6 +1,7 @@
 ## Pokaz możliwości TensorFlowJS
 Aplikacja utworzona przy pomocy Reacta, TypeScriptu i TensorFlowJS. 
-<video src="data/gaugan-app.mp4"></video>
+<br/>
+<video src="https://github.com/user-attachments/assets/d87ecc1d-c97e-4238-b705-cb82e037df97" width="600"></video>
 [<h2>Link do aplikacji</h2>](https://adriankucharski.github.io/gaugan-next-tensorflowjs/)
 
 ## Wprowadzenie
