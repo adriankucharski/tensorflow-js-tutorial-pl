@@ -10,13 +10,13 @@
 
 ### Aplikacja do klasyfikacji zdjęć z modelem nauczonym na zbiorze CIFAR10
 
-<img src="https://github.com/user-attachments/assets/880ebb0b-abf6-4f89-be51-53a1db47e5b8" width="50%" />
+<img src="https://github.com/user-attachments/assets/880ebb0b-abf6-4f89-be51-53a1db47e5b8" />
 
 ---
 
 ### Aplikacja wykorzystująca model językowy
 
-<img src="https://github.com/user-attachments/assets/2098e5c6-c74a-4569-86d2-2b9de48903be" width="50%" />
+<img src="https://github.com/user-attachments/assets/2098e5c6-c74a-4569-86d2-2b9de48903be" />
 
 ## Wprowadzenie
 Celem tego poradnika jest wprowadzenie do biblioteki TensorFlow.js. Biblioteka ta to potężne narzędzie, które pozwala na tworzenie lub wykorzystywanie modeli uczenia maszynowego bezpośrednio w przeglądarce użytkownika, bez konieczności korzystania z serwera. Dzięki połączeniu TensorFlow.js z Reactem, możliwe jest utworzenie interaktywnej aplikacji w przeglądarce, która będzie działać na wielu urządzeniach. 
