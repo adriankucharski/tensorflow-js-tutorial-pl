@@ -1,4 +1,5 @@
 *.tf
 *.keras
 *.h5
-*.tfjs
+*.gz
+aclImdb

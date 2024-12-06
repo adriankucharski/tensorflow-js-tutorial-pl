@@ -2,6 +2,7 @@
 Aplikacja utworzona przy pomocy Reacta, TypeScriptu i TensorFlowJS. 
 <br/>
 <video src="https://github.com/user-attachments/assets/d87ecc1d-c97e-4238-b705-cb82e037df97" width="600"></video>
+<br/>
 [__Link do aplikacji__](https://adriankucharski.github.io/gaugan-next-tensorflowjs/)
 
 ## Wprowadzenie
@@ -33,7 +34,7 @@ Celem tego poradnika jest wprowadzenie do biblioteki TensorFlowJS. Biblioteka ta
 3. [Baza gotowych modeli i przykładów](https://www.tensorflow.org/js/models)
 
 ## Instalacja Keras, TensorFlow i TensorFlowJS w Pythonie
-Pierwszym krokiem jest utworzenie środowiska w Conda, które pozwoli nam korzystać z biblitek Keras, TensorFlow i TensorFlowJS. W tym celu należy:
+Pierwszym krokiem jest utworzenie środowiska w `Conda`, które pozwoli nam korzystać z biblitek Keras, TensorFlow i TensorFlowJS. W tym celu należy:
 1. Pobrać i zainstalować Conda z oficjalnej strony: https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html
 2. Otworzyć terminal i przejść do katalogu z plikiem `environment.yml`
 3. W terminalu wpisać komendę:
@@ -41,7 +42,40 @@ Pierwszym krokiem jest utworzenie środowiska w Conda, które pozwoli nam korzys
 conda env create -f environment.yml
 ```
 
-## Instalacja React i TypeScript
+## Tworzenie aplikacji w React (z TypeScript) od podstaw
+Pierwszy krok to pobranie `Node.js` i menadżera pakietów `npm`. W kolejnych krokach należy zainstalować `React` i `TypeScript`:
+1. Pobrać i zainstalować Node.js z oficjalnej strony: https://nodejs.org/en/download/package-manager (zalecam wersję z `nvm`)
+2. Zweryfikować instalację `Node.js`, `npm` i `npx`:
+```bash
+node -v # powinno zwrócić wersję Node.js
+npm -v # powinno zwrócić wersję npm
+npx -v # powinno zwrócić wersję npx
+```
+3. Utworzyć nowy projekt Reacta z TypeScriptem (https://react.dev/learn/start-a-new-react-project):
+```bash
+npx create-next-app@latest
+# ✔ What is your project named? … llm-tfjs-app
+# ✔ Would you like to use TypeScript? … Yes
+# ✔ Would you like to use ESLint? … Yes
+# ✔ Would you like to use Tailwind CSS? … Yes
+# ✔ Would you like your code inside a `src/` directory? … Yes
+# ✔ Would you like to use App Router? (recommended) … Yes
+# ✔ Would you like to use Turbopack for next dev? … No
+# ✔ Would you like to customize the import alias (@/* by default)? … No
+```
+4. Przejść do katalogu z projektem:
+```bash
+cd llm-tfjs-app
+```
+5. Zainstalować bibliotekę TensorFlowJS:
+```bash
+npm install @tensorflow/tfjs
+```
+6. Uruchomić projekt. Instrukcja znajduje się w pliku `llm-tfjs-app/README.md`. Zazwyczaj wystarczy uruchomić aplikacje za pomocą skryptu:
+```bash
+npm run dev
+```
+
 
 
 
