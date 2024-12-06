@@ -1,9 +1,14 @@
 ## Pokaz możliwości TensorFlowJS
-Aplikacja utworzona przy pomocy Reacta, TypeScriptu i TensorFlowJS. 
-<br/>
+### Aplikacja w stylu [__NVIDIA Canvas__](https://www.nvidia.com/en-us/studio/canvas/)
+
 <video src="https://github.com/user-attachments/assets/d87ecc1d-c97e-4238-b705-cb82e037df97" width="600"></video>
 <br/>
+
 [__Link do aplikacji__](https://adriankucharski.github.io/gaugan-next-tensorflowjs/)
+
+### Aplikacja wykorzystująca model językowy
+
+![chat](https://github.com/user-attachments/assets/2098e5c6-c74a-4569-86d2-2b9de48903be)
 
 ## Wprowadzenie
 Celem tego poradnika jest wprowadzenie do biblioteki TensorFlowJS. Biblioteka ta to potężne narzędzie, które pozwala na tworzenie lub wykorzystywanie modeli uczenia maszynowego bezpośrednio w przeglądarce użytkownika, bez konieczności korzystania z serwera. Dzięki połączeniu TensorFlowJS z Reactem, możliwe jest utworzenie interaktywnej aplikacji w przeglądarce, która będzie działać na wielu urządzeniach. 
