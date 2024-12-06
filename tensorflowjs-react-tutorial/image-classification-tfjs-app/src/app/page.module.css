@@ -1,0 +1,65 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.uloader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed #007bff;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 5px;
+    font-weight: bold;
+    color: #007bff;
+    cursor: pointer;
+}
+
+.predictionContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 16px;
+    padding: 8px;
+}
+
+.predictionItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+.highestProbability {
+    background-color: #ffeb3b; /* Highlight color for the highest probability */
+}
+
+.className {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.probability {
+    color: #555;
+}

@@ -8,9 +8,15 @@
 
 ---
 
+### Aplikacja do klasyfikacji zdjęć z modelem nauczonym na zbiorze CIFAR10
+
+<img src="https://github.com/user-attachments/assets/880ebb0b-abf6-4f89-be51-53a1db47e5b8" width="50%" />
+
+---
+
 ### Aplikacja wykorzystująca model językowy
 
-![chat](https://github.com/user-attachments/assets/2098e5c6-c74a-4569-86d2-2b9de48903be)
+<img src="https://github.com/user-attachments/assets/2098e5c6-c74a-4569-86d2-2b9de48903be" width="50%" />
 
 ## Wprowadzenie
 Celem tego poradnika jest wprowadzenie do biblioteki TensorFlow.js. Biblioteka ta to potężne narzędzie, które pozwala na tworzenie lub wykorzystywanie modeli uczenia maszynowego bezpośrednio w przeglądarce użytkownika, bez konieczności korzystania z serwera. Dzięki połączeniu TensorFlow.js z Reactem, możliwe jest utworzenie interaktywnej aplikacji w przeglądarce, która będzie działać na wielu urządzeniach. 
@@ -41,7 +47,9 @@ Celem tego poradnika jest wprowadzenie do biblioteki TensorFlow.js. Biblioteka t
 3. [Baza gotowych modeli i przykładów](https://www.tensorflow.org/js/models)
 
 ### TensorFlow.js i React
-1. [__MiniatureGPT LLM__](tensorflowjs-react-tutorial/llm-tfjs-app/README.md)
+1. [__Klasyfikacja obrazów__](tensorflowjs-react-tutorial/image-classification-tfjs-app/README.md)
+2. [__MiniatureGPT LLM__](tensorflowjs-react-tutorial/llm-tfjs-app/README.md)
+3. [Aplikacja w stylu NVIDIA Canvas](https://adriankucharski.github.io/gaugan-next-tensorflowjs/)
 
 
 ## Instalacja Keras, TensorFlow i TensorFlow.js w Pythonie
