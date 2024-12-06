@@ -104,12 +104,13 @@ class ModelLLM {
                 // 1 to batch size
                 const inputTensor = tf.tensor2d([x], [1, this.maxSequenceLength!], 'int32');
 
-                // Wykonaj predykcję, model zwraca dwa tensory: stan ukryty i wyjście
-                const [_, y] = this.model!.predict(inputTensor) as tf.Tensor2D[];
+                // Wykonaj predykcję - [1, maxSequenceLength, vocabSize]
+                const y = this.model!.predict(inputTensor) as tf.Tensor2D;
 
                 // Wyjście ma rozmiar [1, maxSequenceLength, vocabSize]
                 // gatherND pozwoli nam na pobranie przewidzianego tokena
-                const sampleToken = tf.gatherND(y, [0, startTokens.length - 1]) as tf.Tensor1D;
+                const indices = [0, Math.min(startTokens.length - 1, this.maxSequenceLength! - 1)];
+                const sampleToken = tf.gatherND(y, indices) as tf.Tensor1D;
 
                 // Wybierz token na podstawie prawdopodobieństw z wyjścia
                 const sampled = this.sampleFromLogits(sampleToken, topK);
