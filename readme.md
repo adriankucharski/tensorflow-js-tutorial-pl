@@ -1,10 +1,12 @@
 ## Pokaz możliwości TensorFlowJS
 ### Aplikacja w stylu [__NVIDIA Canvas__](https://www.nvidia.com/en-us/studio/canvas/)
 
+[__Link do aplikacji__](https://adriankucharski.github.io/gaugan-next-tensorflowjs/)
+
 <video src="https://github.com/user-attachments/assets/d87ecc1d-c97e-4238-b705-cb82e037df97" width="600"></video>
 <br/>
 
-[__Link do aplikacji__](https://adriankucharski.github.io/gaugan-next-tensorflowjs/)
+---
 
 ### Aplikacja wykorzystująca model językowy
 
@@ -37,6 +39,10 @@ Celem tego poradnika jest wprowadzenie do biblioteki TensorFlowJS. Biblioteka ta
 1. [Zapis modelu w TensorFlow i Keras](tensorflowjs-tutorial/1.%20Zapis%20modelu%20w%20TensorFlow%20i%20Keras.ipynb)
 2. [__Konwersja modelu__](tensorflowjs-tutorial/2.%20Konwersja%20modelu.ipynb)
 3. [Baza gotowych modeli i przykładów](https://www.tensorflow.org/js/models)
+
+### TensorFlow.js i React
+1. [__MiniatureGPT LLM__](tensorflowjs-react-tutorial/llm-tfjs-app/README.md)
+
 
 ## Instalacja Keras, TensorFlow i TensorFlowJS w Pythonie
 Pierwszym krokiem jest utworzenie środowiska w `Conda`, które pozwoli nam korzystać z biblitek Keras, TensorFlow i TensorFlowJS. W tym celu należy:
