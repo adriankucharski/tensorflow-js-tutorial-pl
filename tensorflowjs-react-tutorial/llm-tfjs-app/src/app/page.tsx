@@ -39,7 +39,7 @@ export default function Home() {
 
   return (
     <div>
-      <center style={{padding: "15px"}}><h2>LLM with TensorFlow.js</h2></center>
+      <center style={{padding: "15px"}}><h2>Model językowy w TensorFlow.js</h2></center>
       <div style={{margin: "20px"}}>
         <div style={{ border: "1px solid #ccc", padding: "10px", height: "400px", overflowY: "scroll" }}>
           {messages.map((message, index) => (
@@ -57,11 +57,11 @@ export default function Home() {
             style={{ flex: 1, padding: "10px", borderRadius: "5px", border: "1px solid #ccc" }}
           />
           <button onClick={handleSendMessage} style={{ padding: "10px 20px", marginLeft: "10px", borderRadius: "5px", border: "none", background: "#007bff", color: "#fff" }}>
-            Send
+            Wyślij
           </button>
         </div>
         <div style={{ marginTop: "10px" }}>
-          <label>Tokens to generate:</label>
+          <label>Liczba tokenów do wygenerowania:</label>
           <input
             type="number"
             value={tokensToGenerate}
