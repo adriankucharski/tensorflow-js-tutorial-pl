@@ -1,0 +1,12 @@
+name: tfjs-tutorial
+channels:
+  - defaults
+dependencies:
+  - python == 3.10
+  - pip
+  - pip:
+    - tensorflow==2.16.2
+    - tensorflowjs==4.22.0
+    - ipykernel
+    - matplotlib
+    - tqdm
