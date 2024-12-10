@@ -84,7 +84,7 @@ class ModelLLM {
         });
 
         const tokensGenerated: number[] = [];
-        while (tokensGenerated.length <= tokensToGenerate) {
+        while (tokensGenerated.length < tokensToGenerate) {
             const padLength = this.maxSequenceLength! - startTokens.length;
             // Dodaj padding na początku lub obetnij wejście do maksymalnej długości
             // Ta operacja jest mało zasobożerna, więc można wykorzystać JavaScript
