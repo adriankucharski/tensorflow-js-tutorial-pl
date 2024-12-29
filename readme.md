@@ -8,6 +8,14 @@
 
 ---
 
+### Llama 3 86 milionów parametrów
+[__Link do aplikacji__](https://adriankucharski.github.io/react-tensorflowjs-llama-app/)
+
+<video src="https://github.com/user-attachments/assets/238e454a-defb-43a7-86ad-ddd8ec20d45e" width="600"></video>
+<br/>
+
+---
+
 ### Aplikacja do klasyfikacji zdjęć z modelem nauczonym na zbiorze CIFAR10
 
 <img src="https://github.com/user-attachments/assets/880ebb0b-abf6-4f89-be51-53a1db47e5b8" />
